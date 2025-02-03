@@ -1,9 +1,9 @@
-package com.Some_Concept;
+package com.Polymorphism;
 
 public class depends_reference {
     public static void main(String[] args) {
- sub_depends p=new sub_depends();//when do not override method
-        p.seek();
+ Parent_depends p=new sub_depends();//when do not override method
+//        p.seek();//depends type of ref variable so it can not access
         p.feek();
     }
 
